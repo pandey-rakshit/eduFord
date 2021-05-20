@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Title of the page -->
+        <title>eduFord</title>    
+        
+
+        <!-- fontAwesom free icon link -->
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" >
+        
+    
+
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body >
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Certificate &amp; online program</h1>
+        </section>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg" alt="">
+                    <h2>Our Our Certificate &amp; online program</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, facilis. Voluptas incidunt quo accusamus quod explicabo, aspernatur exercitationem? Eum natus architecto dignissimos, ab omnis voluptatem dicta dolore commodi magnam recusandae fugit, repellat laboriosam tempora qui.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore eos voluptates quisquam quasi. Placeat vitae molestiae quibusdam adipisci numquam alias vero labore sed iure facere harum nemo voluptates, maxime consectetur aperiam assumenda fugiat ducimus! Possimus optio earum deserunt corporis provident minima autem laborum dolor impedit sequi animi voluptas odit numquam, architecto obcaecati praesentium accusamus ipsum vero incidunt. Eligendi voluptatem neque explicabo, sunt dolorum eaque sapiente ratione quaerat totam. Sequi unde, quis a voluptates atque porro dolorem cumque fugiat magnam!</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic alias tenetur quisquam laboriosam adipisci consequuntur iste. Provident vitae sunt nam id beatae nemo nisi, minima maiores? Quidem, quae? Amet id eveniet ad voluptates? Commodi quas libero similique ipsam consequuntur temporibus molestias porro. Quis natus dicta, nobis nesciunt incidunt soluta laudantium.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet doloremque voluptatum consectetur. Autem officiis ipsum possimus, sapiente suscipit quibusdam alias? In nostrum, quam illo harum aperiam quos, hic ducimus doloremque magnam unde tempora iure repudiandae.</p>
+                    
+                    <div class="comment-box">
+                        <h3>leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment" ></textarea>
+                            <button type="submit" class="btn hero-btn">Post Comment</button>
+                        </form>
+                    </div> 
+                
+                </div>
+
+                <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div><div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div><div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div><div>
+                        <span>AutoCAD</span>
+                        <span>42</span>
+                    </div><div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div><div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+
+        <!-- ----------------footer--------------->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, repellendus nisi reprehenderit temporibus vero non? <br> Molestias ab commodi ratione sit praesentium aliquam dolorem rerum omnis.</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="far fa-heart"></i></p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navLinkes");
+            function showmenu(){
+                navLinks.style.right="0";
+            }
+            function hidemenu(){
+                navLinks.style.right="-200px";
+            }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script/style.js"></script> -->
+    </body>
+</html>
